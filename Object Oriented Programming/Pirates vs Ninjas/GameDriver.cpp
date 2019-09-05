@@ -4,6 +4,11 @@
 
 void GameDriver::main()
 {
+	DisplayIntro();
+}
+
+void GameDriver::DisplayIntro()
+{
 	std::cout << "\n\n\t\tWelcome to Pirates vs Ninjas!" << endl;
 }
 

@@ -6,14 +6,8 @@ using namespace std;
 class GameDriver
 {
 public:
-	void main()
-	{
-		//displayIntro();
-	}
-
-	void DisplayIntro()
-	{
-		//cout << "Welcome to Pirates vs Ninjas!" << endl;
-	}
+	void main();
+	void DisplayIntro();
+	void DisplayGameStats();
 };
 
