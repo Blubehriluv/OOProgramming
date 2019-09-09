@@ -3,5 +3,7 @@
 class Pirate :
 	public Character
 {
+public:
+	void UseSword();
 };
 

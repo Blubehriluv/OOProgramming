@@ -1,0 +1,12 @@
+﻿  Character.cpp
+  GameDriver.cpp
+  GameStructure.cpp
+  Ninja.cpp
+  Pirate.cpp
+  Generating Code...
+Ninja.obj : error LNK2005: "void __cdecl attack(void)" (?attack@@YAXXZ) already defined in Character.obj
+Pirate.obj : error LNK2005: "void __cdecl attack(void)" (?attack@@YAXXZ) already defined in Character.obj
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+    Hint on symbols that are defined and could potentially match:
+      "public: void __cdecl GameDriver::main(void)" (?main@GameDriver@@QEAAXXZ)
+C:\Users\taymcken\Documents\GitHub\OOProgramming\Object Oriented Programming\x64\Debug\Pirates vs Ninjas.exe : fatal error LNK1120: 1 unresolved externals
