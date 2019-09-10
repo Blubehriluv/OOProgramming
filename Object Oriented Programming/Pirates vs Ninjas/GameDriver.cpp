@@ -1,4 +1,6 @@
 #include "GameDriver.h"
+#include "Character.h"
+#include "Ninja.h"
 #include <iostream>
 //todo: use todo for task lists
 
@@ -13,6 +15,11 @@ void GameDriver::DisplayGameStats()
 }
 
 void GameDriver::RunAll()
+{
+	
+}
+
+void GameDriver::PlayTheGame()
 {
 	
 }

@@ -9,5 +9,6 @@ public:
 	void DisplayIntro();
 	void DisplayGameStats();
 	void RunAll();
+	void PlayTheGame();
 };
 
