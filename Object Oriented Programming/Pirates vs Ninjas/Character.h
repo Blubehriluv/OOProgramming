@@ -9,5 +9,12 @@ class Character :
 {
 public:
 	string Name;
+
+	virtual void attack()
+	{
+		cout << "You hit for 10 damage!" << endl;
+	}
+
+	virtual void Help() override;
 };
 

@@ -33,7 +33,7 @@ void Talk(string name, string stuffToSay)
 	cout << name << ", " << stuffToSay << endl;
 }
 
-void attack()
+void Character::Help()
 {
-	cout << "You hit for 10 damage!" << endl;
+	cout << "Help pls" << endl;
 }

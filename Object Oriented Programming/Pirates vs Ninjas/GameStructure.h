@@ -4,7 +4,7 @@
 
 class GameStructure
 {
-
+	virtual void Help() = 0;
 	
 };
 

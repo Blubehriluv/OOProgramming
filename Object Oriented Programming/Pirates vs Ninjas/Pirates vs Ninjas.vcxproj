@@ -128,6 +128,7 @@
     <ClCompile Include="GameStructure.cpp" />
     <ClCompile Include="Ninja.cpp" />
     <ClCompile Include="Pirate.cpp" />
+    <ClCompile Include="StartGame.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Character.h" />

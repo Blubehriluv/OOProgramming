@@ -5,5 +5,10 @@ class Ninja :
 {
 public:
 	void ThrowStars();
+
+	void attack() override
+	{
+		cout << "You hit for 25 damage!" << endl;
+	}
 };
 

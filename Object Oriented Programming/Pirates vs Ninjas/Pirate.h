@@ -5,5 +5,10 @@ class Pirate :
 {
 public:
 	void UseSword();
+
+	void attack() override
+	{
+		cout << "You hit for 25 damage!" << endl;
+	}
 };
 

@@ -12,8 +12,3 @@ void UseSword()
 {
 	cout << "I am swooshing my sword!" << endl;
 }
-
-void attack()
-{
-	cout << "You hit for 25 damage!" << endl;
-}
